@@ -1,0 +1,276 @@
+[[package]]
+category = "main"
+description = "Extensible memoizing collections and decorators"
+name = "cachetools"
+optional = false
+python-versions = "~=3.5"
+version = "4.1.0"
+
+[[package]]
+category = "main"
+description = "Python package for providing Mozilla's CA Bundle."
+name = "certifi"
+optional = false
+python-versions = "*"
+version = "2020.4.5.1"
+
+[[package]]
+category = "main"
+description = "Universal encoding detector for Python 2 and 3"
+name = "chardet"
+optional = false
+python-versions = "*"
+version = "3.0.4"
+
+[[package]]
+category = "main"
+description = "Google Authentication Library"
+name = "google-auth"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
+version = "1.16.1"
+
+[package.dependencies]
+cachetools = ">=2.0.0,<5.0"
+pyasn1-modules = ">=0.2.1"
+rsa = ">=3.1.4,<4.1"
+setuptools = ">=40.3.0"
+six = ">=1.9.0"
+
+[[package]]
+category = "main"
+description = "Google Authentication Library"
+name = "google-auth-oauthlib"
+optional = false
+python-versions = "*"
+version = "0.4.1"
+
+[package.dependencies]
+google-auth = "*"
+requests-oauthlib = ">=0.7.0"
+
+[[package]]
+category = "main"
+description = "Google Spreadsheets Python API"
+name = "gspread"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "3.6.0"
+
+[package.dependencies]
+google-auth = ">=1.12.0"
+google-auth-oauthlib = ">=0.4.1"
+requests = ">=2.2.1"
+
+[[package]]
+category = "main"
+description = "Apply cell formatting to gspread worksheets"
+name = "gspread-formatting"
+optional = false
+python-versions = "*"
+version = "0.2.4"
+
+[package.dependencies]
+gspread = ">=3.0.0"
+
+[[package]]
+category = "main"
+description = "A comprehensive HTTP client library."
+name = "httplib2"
+optional = false
+python-versions = "*"
+version = "0.18.1"
+
+[[package]]
+category = "main"
+description = "Internationalized Domain Names in Applications (IDNA)"
+name = "idna"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.9"
+
+[[package]]
+category = "main"
+description = "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API."
+name = "lxml"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, != 3.4.*"
+version = "4.5.1"
+
+[[package]]
+category = "main"
+description = "NumPy is the fundamental package for array computing with Python."
+name = "numpy"
+optional = false
+python-versions = ">=3.5"
+version = "1.18.5"
+
+[[package]]
+category = "main"
+description = "OAuth 2.0 client library"
+name = "oauth2client"
+optional = false
+python-versions = "*"
+version = "4.1.3"
+
+[package.dependencies]
+httplib2 = ">=0.9.1"
+pyasn1 = ">=0.1.7"
+pyasn1-modules = ">=0.0.5"
+rsa = ">=3.1.4"
+six = ">=1.6.1"
+
+[[package]]
+category = "main"
+description = "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic"
+name = "oauthlib"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "3.1.0"
+
+[[package]]
+category = "main"
+description = "Powerful data structures for data analysis, time series, and statistics"
+name = "pandas"
+optional = false
+python-versions = ">=3.6.1"
+version = "1.0.4"
+
+[package.dependencies]
+numpy = ">=1.13.3"
+python-dateutil = ">=2.6.1"
+pytz = ">=2017.2"
+
+[[package]]
+category = "main"
+description = "ASN.1 types and codecs"
+name = "pyasn1"
+optional = false
+python-versions = "*"
+version = "0.4.8"
+
+[[package]]
+category = "main"
+description = "A collection of ASN.1-based protocols modules."
+name = "pyasn1-modules"
+optional = false
+python-versions = "*"
+version = "0.2.8"
+
+[package.dependencies]
+pyasn1 = ">=0.4.6,<0.5.0"
+
+[[package]]
+category = "main"
+description = "Extensions to the standard Python datetime module"
+name = "python-dateutil"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
+version = "2.8.1"
+
+[package.dependencies]
+six = ">=1.5"
+
+[[package]]
+category = "main"
+description = "Pseudo API for Google Trends"
+name = "pytrends"
+optional = false
+python-versions = "*"
+version = "4.7.3"
+
+[package.dependencies]
+lxml = "*"
+pandas = ">=0.25"
+requests = "*"
+
+[[package]]
+category = "main"
+description = "World timezone definitions, modern and historical"
+name = "pytz"
+optional = false
+python-versions = "*"
+version = "2020.1"
+
+[[package]]
+category = "main"
+description = "Python HTTP for Humans."
+name = "requests"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "2.23.0"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+chardet = ">=3.0.2,<4"
+idna = ">=2.5,<3"
+urllib3 = ">=1.21.1,<1.25.0 || >1.25.0,<1.25.1 || >1.25.1,<1.26"
+
+[[package]]
+category = "main"
+description = "OAuthlib authentication support for Requests."
+name = "requests-oauthlib"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.3.0"
+
+[package.dependencies]
+oauthlib = ">=3.0.0"
+requests = ">=2.0.0"
+
+[[package]]
+category = "main"
+description = "Pure-Python RSA implementation"
+name = "rsa"
+optional = false
+python-versions = "*"
+version = "4.0"
+
+[package.dependencies]
+pyasn1 = ">=0.1.3"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "1.15.0"
+
+[[package]]
+category = "main"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+name = "urllib3"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
+version = "1.25.9"
+
+[metadata]
+content-hash = "2864678440f4fd4bbe6b15d7c1bce961163123aacf3b1835c0eae71ae936cf00"
+python-versions = "^3.8"
+
+[metadata.hashes]
+cachetools = ["1d057645db16ca7fe1f3bd953558897603d6f0b9c51ed9d11eb4d071ec4e2aab", "de5d88f87781602201cde465d3afe837546663b168e8b39df67411b0bf10cefc"]
+certifi = ["1d987a998c75633c40847cc966fcf5904906c920a7f17ef374f5aa4282abd304", "51fcb31174be6e6664c5f69e3e1691a2d72a1a12e90f872cbdb1567eb47b6519"]
+chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
+google-auth = ["2f1a6bc3031fc7cd0c1aeb225ad34febcb60268f71f5df75d5976dd20a52c002", "c041ffe8887fda3b040b39700d839fe38260c281ee11dbf6627978e21c99a626"]
+google-auth-oauthlib = ["88d2cd115e3391eb85e1243ac6902e76e77c5fe438b7276b297fbe68015458dd", "a92a0f6f41a0fb6138454fbc02674e64f89d82a244ea32f98471733c8ef0e0e1"]
+gspread = ["273da28275eb8dc664b1ca944e59255949d75ac3cac62d65797003dbb419a2cd", "e04f1a6267b3929fc1600424c5ec83906d439672cafdd61a9d5b916a139f841c"]
+gspread-formatting = ["26980d596128ee39194d54c16fb6d0ff8e9a8e329c2f1f93b1555ddf5166cd50", "a5073474231c57a76b2eb27427081f23984a73383772ab7fe59b89a094877782"]
+httplib2 = ["8af66c1c52c7ffe1aa5dc4bcd7c769885254b0756e6e69f953c7f0ab49a70ba3", "ca2914b015b6247791c4866782fa6042f495b94401a0f0bd3e1d6e0ba2236782"]
+idna = ["7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb", "a068a21ceac8a4d63dbfd964670474107f541babbd2250d61922f029858365fa"]
+lxml = ["06748c7192eab0f48e3d35a7adae609a329c6257495d5e53878003660dc0fec6", "0790ddca3f825dd914978c94c2545dbea5f56f008b050e835403714babe62a5f", "1aa7a6197c1cdd65d974f3e4953764eee3d9c7b67e3966616b41fab7f8f516b7", "22c6d34fdb0e65d5f782a4d1a1edb52e0a8365858dafb1c08cb1d16546cf0786", "2754d4406438c83144f9ffd3628bbe2dcc6d62b20dbc5c1ec4bc4385e5d44b42", "27ee0faf8077c7c1a589573b1450743011117f1aa1a91d5ae776bbc5ca6070f2", "2b02c106709466a93ed424454ce4c970791c486d5fcdf52b0d822a7e29789626", "2d1ddce96cf15f1254a68dba6935e6e0f1fe39247de631c115e84dd404a6f031", "4f282737d187ae723b2633856085c31ae5d4d432968b7f3f478a48a54835f5c4", "51bb4edeb36d24ec97eb3e6a6007be128b720114f9a875d6b370317d62ac80b9", "7eee37c1b9815e6505847aa5e68f192e8a1b730c5c7ead39ff317fde9ce29448", "7fd88cb91a470b383aafad554c3fe1ccf6dfb2456ff0e84b95335d582a799804", "9144ce36ca0824b29ebc2e02ca186e54040ebb224292072250467190fb613b96", "925baf6ff1ef2c45169f548cc85204433e061360bfa7d01e1be7ae38bef73194", "a636346c6c0e1092ffc202d97ec1843a75937d8c98aaf6771348ad6422e44bb0", "a87dbee7ad9dce3aaefada2081843caf08a44a8f52e03e0a4cc5819f8398f2f4", "a9e3b8011388e7e373565daa5e92f6c9cb844790dc18e43073212bb3e76f7007", "afb53edf1046599991fb4a7d03e601ab5f5422a5435c47ee6ba91ec3b61416a6", "b26719890c79a1dae7d53acac5f089d66fd8cc68a81f4e4bd355e45470dc25e1", "b7462cdab6fffcda853338e1741ce99706cdf880d921b5a769202ea7b94e8528", "b77975465234ff49fdad871c08aa747aae06f5e5be62866595057c43f8d2f62c", "c47a8a5d00060122ca5908909478abce7bbf62d812e3fc35c6c802df8fb01fe7", "c79e5debbe092e3c93ca4aee44c9a7631bdd407b2871cb541b979fd350bbbc29", "d8d40e0121ca1606aa9e78c28a3a7d88a05c06b3ca61630242cded87d8ce55fa", "ee2be8b8f72a2772e72ab926a3bccebf47bb727bda41ae070dc91d1fb759b726", "f95d28193c3863132b1f55c1056036bf580b5a488d908f7d22a04ace8935a3a9", "fadd2a63a2bfd7fb604508e553d1cf68eca250b2fbdbd81213b5f6f2fbf23529"]
+numpy = ["0172304e7d8d40e9e49553901903dc5f5a49a703363ed756796f5808a06fc233", "34e96e9dae65c4839bd80012023aadd6ee2ccb73ce7fdf3074c62f301e63120b", "3676abe3d621fc467c4c1469ee11e395c82b2d6b5463a9454e37fe9da07cd0d7", "3dd6823d3e04b5f223e3e265b4a1eae15f104f4366edd409e5a5e413a98f911f", "4064f53d4cce69e9ac613256dc2162e56f20a4e2d2086b1956dd2fcf77b7fac5", "4674f7d27a6c1c52a4d1aa5f0881f1eff840d2206989bae6acb1c7668c02ebfb", "7d42ab8cedd175b5ebcb39b5208b25ba104842489ed59fbb29356f671ac93583", "965df25449305092b23d5145b9bdaeb0149b6e41a77a7d728b1644b3c99277c1", "9c9d6531bc1886454f44aa8f809268bc481295cf9740827254f53c30104f074a", "a78e438db8ec26d5d9d0e584b27ef25c7afa5a182d1bf4d05e313d2d6d515271", "a7acefddf994af1aeba05bbbafe4ba983a187079f125146dc5859e6d817df824", "a87f59508c2b7ceb8631c20630118cc546f1f815e034193dc72390db038a5cb3", "ac792b385d81151bae2a5a8adb2b88261ceb4976dbfaaad9ce3a200e036753dc", "b03b2c0badeb606d1232e5f78852c102c0a7989d3a534b3129e7856a52f3d161", "b39321f1a74d1f9183bf1638a745b4fd6fe80efbb1f6b32b932a588b4bc7695f", "cae14a01a159b1ed91a324722d746523ec757357260c6804d11d6147a9e53e3f", "cd49930af1d1e49a812d987c2620ee63965b619257bd76eaaa95870ca08837cf", "e15b382603c58f24265c9c931c9a45eebf44fe2e6b4eaedbb0d025ab3255228b", "e91d31b34fc7c2c8f756b4e902f901f856ae53a93399368d9a0dc7be17ed2ca0", "ef627986941b5edd1ed74ba89ca43196ed197f1a206a3f18cc9faf2fb84fd675", "f718a7949d1c4f622ff548c572e0c03440b49b9531ff00e4ed5738b459f011e8"]
+oauth2client = ["b8a81cc5d60e2d364f0b1b98f958dbd472887acaf1a5b05e21c28c31a2d6d3ac", "d486741e451287f69568a4d26d70d9acd73a2bbfa275746c535b4209891cccc6"]
+oauthlib = ["bee41cc35fcca6e988463cacc3bcb8a96224f470ca547e697b604cc697b2f889", "df884cd6cbe20e32633f1db1072e9356f53638e4361bef4e8b03c9127c9328ea"]
+pandas = ["034185bb615dc96d08fa13aacba8862949db19d5e7804d6ee242d086f07bcc46", "0c9b7f1933e3226cc16129cf2093338d63ace5c85db7c9588e3e1ac5c1937ad5", "1f6fcf0404626ca0475715da045a878c7062ed39bc859afc4ccf0ba0a586a0aa", "1fc963ba33c299973e92d45466e576d11f28611f3549469aec4a35658ef9f4cc", "29b4cfee5df2bc885607b8f016e901e63df7ffc8f00209000471778f46cc6678", "2a8b6c28607e3f3c344fe3e9b3cd76d2bf9f59bc8c0f2e582e3728b80e1786dc", "2bc2ff52091a6ac481cc75d514f06227dc1b10887df1eb72d535475e7b825e31", "415e4d52fcfd68c3d8f1851cef4d947399232741cc994c8f6aa5e6a9f2e4b1d8", "519678882fd0587410ece91e3ff7f73ad6ded60f6fcb8aa7bcc85c1dc20ecac6", "51e0abe6e9f5096d246232b461649b0aa627f46de8f6344597ca908f2240cbaa", "698e26372dba93f3aeb09cd7da2bb6dd6ade248338cfe423792c07116297f8f4", "83af85c8e539a7876d23b78433d90f6a0e8aa913e37320785cf3888c946ee874", "982cda36d1773076a415ec62766b3c0a21cdbae84525135bdb8f460c489bb5dd", "a647e44ba1b3344ebc5991c8aafeb7cca2b930010923657a273b41d86ae225c4", "b35d625282baa7b51e82e52622c300a1ca9f786711b2af7cbe64f1e6831f4126", "bab51855f8b318ef39c2af2c11095f45a10b74cbab4e3c8199efcc5af314c648"]
+pyasn1 = ["014c0e9976956a08139dc0712ae195324a75e142284d5f87f1a87ee1b068a359", "03840c999ba71680a131cfaee6fab142e1ed9bbd9c693e285cc6aca0d555e576", "0458773cfe65b153891ac249bcf1b5f8f320b7c2ce462151f8fa74de8934becf", "08c3c53b75eaa48d71cf8c710312316392ed40899cb34710d092e96745a358b7", "39c7e2ec30515947ff4e87fb6f456dfc6e84857d34be479c9d4a4ba4bf46aa5d", "5c9414dcfede6e441f7e8f81b43b34e834731003427e5b09e4e00e3172a10f00", "6e7545f1a61025a4e58bb336952c5061697da694db1cae97b116e9c46abcf7c8", "78fa6da68ed2727915c4767bb386ab32cdba863caa7dbe473eaae45f9959da86", "7ab8a544af125fb704feadb008c99a88805126fb525280b2270bb25cc1d78a12", "99fcc3c8d804d1bc6d9a099921e39d827026409a58f2a720dcdb89374ea0c776", "aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba", "e89bf84b5437b532b0803ba5c9a5e054d21fec423a89952a74f87fa2c9b7bce2", "fec3e9d8e36808a28efb59b489e4528c10ad0f480e57dcc32b4de5c9d8c9fdf3"]
+pyasn1-modules = ["0845a5582f6a02bb3e1bde9ecfc4bfcae6ec3210dd270522fee602365430c3f8", "0fe1b68d1e486a1ed5473f1302bd991c1611d319bba158e98b106ff86e1d7199", "15b7c67fabc7fc240d87fb9aabf999cf82311a6d6fb2c70d00d3d0604878c811", "426edb7a5e8879f1ec54a1864f16b882c2837bfd06eee62f2c982315ee2473ed", "65cebbaffc913f4fe9e4808735c95ea22d7a7775646ab690518c056784bc21b4", "905f84c712230b2c592c19470d3ca8d552de726050d1d1716282a1f6146be65e", "a50b808ffeb97cb3601dd25981f6b016cbb3d31fbf57a8b8a87428e6158d0c74", "a99324196732f53093a84c4369c996713eb8c89d360a496b599fb1a9c47fc3eb", "b80486a6c77252ea3a3e9b1e360bc9cf28eaac41263d173c032581ad2f20fe45", "c29a5e5cc7a3f05926aff34e097e84f8589cd790ce0ed41b67aed6857b26aafd", "cbac4bc38d117f2a49aeedec4407d23e8866ea4ac27ff2cf7fb3e5b570df19e0", "f39edd8c4ecaa4556e989147ebf219227e2cd2e8a43c7e7fcb1f1c18c5fd6a3d", "fe0644d9ab041506b62782e92b06b8c68cca799e1a9636ec398675459e031405"]
+python-dateutil = ["73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c", "75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a"]
+pytrends = ["88d92e398b9408c79fd92946ddc2b03fa622301233bc49f16804042eb2897328", "8ccb06c57c31fa157b978a0d810de7718ee46583d28cf818250d45f36abd2faa"]
+pytz = ["a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed", "c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"]
+requests = ["43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee", "b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"]
+requests-oauthlib = ["7f71572defaecd16372f9006f33c2ec8c077c3cfa6f5911a9a90202beb513f3d", "b4261601a71fd721a8bd6d7aa1cc1d6a8a93b4a9f5e96626f8e4d91e8beeaa6a", "fa6c47b933f01060936d87ae9327fead68768b69c6c9ea2109c48be30f2d4dbc"]
+rsa = ["14ba45700ff1ec9eeb206a2ce76b32814958a98e372006c8fb76ba820211be66", "1a836406405730121ae9823e19c6e806c62bbad73f890574fff50efa4122c487"]
+six = ["30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259", "8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"]
+urllib3 = ["3018294ebefce6572a474f0604c2021e33b3fd8006ecd11d62107a5d2a963527", "88206b0eb87e6d677d424843ac5209e3fb9d0190d0ee169599165ec25e9d9115"]
